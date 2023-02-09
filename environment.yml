@@ -1,0 +1,30 @@
+# Conda environment for feldman-cousins development
+#
+# Install:    conda env create -f environment.yml
+# Update:     conda env update -f environment.yml
+# Activate:   conda activate feldman-cousins
+# Deactivate: conda deactivate
+
+name: feldman-cousins
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python==3.9
+  - pip
+  - numpy
+  - scipy
+  - pytest
+  - pytest-cov
+  - sphinx
+  - matplotlib
+  - pylint
+  - flake8
+  - nox
+  - pip:
+    - setuptools_scm
+    - sphinx_rtd_theme
+    - pydocstyle
+    - black
+    - twine
