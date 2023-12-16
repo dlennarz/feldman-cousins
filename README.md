@@ -8,8 +8,9 @@
 [![PyPI platforms][pypi-platforms]][pypi-link]
 
 [![GitHub Discussion][github-discussions-badge]][github-discussions-link]
-[![Gitter][gitter-badge]][gitter-link]
 [![Scikit-HEP][sk-badge]](https://scikit-hep.org/)
+
+<!-- SPHINX-START -->
 
 <!-- prettier-ignore-start -->
 [actions-badge]:            https://github.com/Scikit-HEP/feldman-cousins/workflows/CI/badge.svg
@@ -18,8 +19,6 @@
 [conda-link]:               https://github.com/conda-forge/feldman-cousins-feedstock
 [github-discussions-badge]: https://img.shields.io/static/v1?label=Discussions&message=Ask&color=blue&logo=github
 [github-discussions-link]:  https://github.com/Scikit-HEP/feldman-cousins/discussions
-[gitter-badge]:             https://badges.gitter.im/https://github.com/Scikit-HEP/feldman-cousins/community.svg
-[gitter-link]:              https://gitter.im/https://github.com/Scikit-HEP/feldman-cousins/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [pypi-link]:                https://pypi.org/project/feldman-cousins/
 [pypi-platforms]:           https://img.shields.io/pypi/pyversions/feldman-cousins
 [pypi-version]:             https://img.shields.io/pypi/v/feldman-cousins
